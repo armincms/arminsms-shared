@@ -1,6 +1,6 @@
 <?php
 
-namespace Armincms\Qasedak;
+namespace Armincms\ArminsmsShared;
 
 use Armincms\Qasedak\Contracts\BulkService; 
 use SoapClient;
