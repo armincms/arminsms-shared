@@ -20,7 +20,7 @@ class ServiceProvider extends ServiceProvider
         ]);
 
         $this->app->afterResolving('qasedak', function($manager) {
-            $manager->extend('armin-sms-shared', function() ues ($manager) {
+            $manager->extend('armin-sms-shared', function() use ($manager) {
                 return $manager->repository(new SahredService(
                     (array) $this->config->get('armin-sms-shared')
                 ));
