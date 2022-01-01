@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Armincms\\ArminsmsSharedShared\\": "src/"
+            "Armincms\\ArminsmsShared\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Armincms\\ArminsmsSharedShared\\ServiceProvider"
+                "Armincms\\ArminsmsShared\\ServiceProvider"
             ]
         }
     },
