@@ -3,6 +3,7 @@
 namespace Armincms\ArminsmsShared;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider; 
+use Laravel\Nova\Nova;
 
 class ServiceProvider extends LaravelServiceProvider 
 { 
