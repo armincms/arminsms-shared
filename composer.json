@@ -1,0 +1,31 @@
+{
+    "name": "armincms/arminsms-shared",
+    "description": "Armin SMS shared configuration",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "armincms/qasedak": "~0.1",
+        "armincms/bios": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Armincms\\ArminsmsSharedShared\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Armincms\\ArminsmsSharedShared\\ServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
